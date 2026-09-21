@@ -11,7 +11,7 @@ if(([Email_Content_Name]) contains 'Executive Summary')
 { return 'Executive Summary'; }
 
 else if(([Email_Content_Name]) contains 'Eid' 
-  or ([Email_Content_Name]) contains 'Ramada') 
+  or ([Email_Content_Name]) contains 'Ramadan') 
 { return 'Holiday'; } 
 
 else if(([Email_Content_Name]) contains 'Seminar') 
